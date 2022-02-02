@@ -6,6 +6,10 @@
     font-family: Helvetica;
 }
 
+html{
+    font-size: 100%;
+}
+
 body{
     height: 100%;
     width: 100%;
@@ -38,7 +42,7 @@ a{
 #logo-header{
     height: 50%;
     width: 10%;
-    padding-left: 2em;
+    padding-left: 2rem;
 }
 
 #container-nav{
@@ -47,25 +51,28 @@ a{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 1.8em;
+    padding-right: 1.8rem;
 }
 
 #nav-ul{
     display: flex;
 }
 
+
+
 .nav-link{
-    padding-right: 1.8em;
+    margin-left: 1.8rem;
 }
 
 #button-nav{
     background: #000;
     color: #FFF;
-    font-size: 1.2em;
-    margin: 0em 1.8em;
-    padding: .5em 1.4em;
+    font-size: 1.2rem;
+    margin: 0rem 1.8rem;
+    padding: .5rem 1.4rem;
     border: 0px;
 }
+
 
 /* Estilizado main */
 
@@ -90,48 +97,48 @@ a{
 }
 
 #hero-heading{
-    font-size: 3.3em;
-    padding: 0em 1em;
+    font-size: 3.3rem;
+    padding: 0rem 1rem;
     width: 100%;
 }
 
 #first-art-right{
     display: flex;
     flex-direction: column;
-    padding-left: 5em;
+    padding-left: 5rem;
 }
 
 #first-art-right > p{
     width: 80%;
-    font-size: 1.1em;
-    padding-top: 2em;
+    font-size: 1.1rem;
+    padding-top: 2rem;
     text-align: left;
 }
 
 #first-art-right > form{
-    padding-top: 2em;
+    padding-top: 2rem;
 }
 
 #email-input{
-    height: 3em;
+    height: 3rem;
     width: 50%;
     border: 1px solid #000;
-    font-size: 1em;
-    padding-left: .8em;
+    font-size: 1rem;
+    padding-left: .8rem;
     text-align: left;
 }
 
 #sign-up-btn{
-    height: 3.6em;
+    height: 3.6rem;
     width: 15%;
-    margin-left: 1em;
+    margin-left: 1rem;
     border: 1px solid #000;
     background: #000;
     color: #FFF;
 }
 
 #first-art-right > form + p{
-    font-size: .8em;
+    font-size: .8rem;
 }
 
 #terms-n-conditions{
@@ -156,30 +163,30 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 5em;
+    padding-left: 5rem;
 }
 
 #second-art-left section{
-    margin: 2em;
+    margin: 2rem;
 }
 
 .heading-second-art{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .paragraph-second-art{
-    padding: 1.2em 0em;
+    padding: 1.2rem 0rem;
 }
 
 #placeholder-second{
-    padding: 0em 5em;
+    padding: 0rem 5rem;
     width: 50%;
     height: 75%;
     object-fit: cover;
 }
 
 .second-art-btn{
-    font-size: 1em;
+    font-size: 1rem;
     border: 0px solid;
     background-color: transparent;
 }
@@ -192,8 +199,8 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0em 6em;
-    margin-bottom: 5em;
+    padding: 0rem 6rem;
+    margin-bottom: 5rem;
 }
 
 #third-art-up{
@@ -206,7 +213,7 @@ a{
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    gap: 2rem;
 }
 
 .article-third-art{
@@ -225,22 +232,22 @@ div#third-art-up > span{
 }
 
 #third-art-heading{
-    font-size: 2em;
-    padding: 1em 0em;
+    font-size: 2rem;
+    padding: 1rem 0rem;
 }
 
 .span-third-art{
     font-weight: bold;
-    font-size: .8em;
+    font-size: .8rem;
 }
 
 .third-art-heading{
-    font-size: 1.2em;
-    margin: 1em 0em;
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
 }
 
 .paragraph-third-art{
-    font-size: .9em;
+    font-size: .9rem;
 }
 
 .user-pic{
@@ -252,7 +259,7 @@ div#third-art-up > span{
 .article-info-container{
     display: flex;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 2rem;
 }
 
 .user-name{
@@ -261,7 +268,7 @@ div#third-art-up > span{
 
 
 .article-info{
-    margin-left: 1em;
+    margin-left: 1rem;
 }
 
 /* Estilizado footer */
@@ -285,7 +292,7 @@ div#third-art-up > span{
 #logo-footer{
     height: 100%;
     width: 5%;
-    margin-left: 5em;
+    margin-left: 5rem;
 }
 
 #footer-nav-container{
@@ -297,7 +304,7 @@ div#third-art-up > span{
 }
 
 #footer-nav-container a{
-    padding-left: 3em;
+    margin-left: 3rem;
 }
 
 #container-footer-media{
@@ -309,19 +316,94 @@ div#third-art-up > span{
 }
 
 #container-footer-media img{
-    padding-left: 1em;
+    padding-left: 1rem;
 }
 
 #footer-bottom{
     height: 40%;
     width: 50%;
     border-top: 1px solid #000;
-    padding-top: 1em;
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#footer-bottom > a{
+.link-footer{
     text-decoration: underline;
-    padding-left: 2em;
+    margin-left: 2rem;
+}
+.link-footer:hover{
+    text-decoration: none;
+}
+
+
+
+/* Media queries */
+
+@media (max-width: 1024px){
+    #hero-main{
+        display: block;
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #placeholder-second{
+        height: 50%;
+    }
+    #container-footer-media{
+        margin-right: 4rem;
+    }
+    #third-art-down{
+        margin-left: 1.2em;
+    }
+    .third-art-img{
+        height: 50%;
+    }
+}
+
+@media (max-width: 768px){
+    #container-main{
+        height: 60vh;
+        width: 100vw;
+    }
+    #hero-main{
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #container-first-art{
+        margin-top: 5rem;
+        padding-left: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #hero-heading{
+        width: 90%;
+        margin-left: 1rem;
+        font-size: 2.5rem;
+    }
+    #first-art-right{
+        margin-left: .5rem
+    }
+    #placeholder-second{
+        height: 50%;
+        width: 60%;
+    }
+    #second-art-left section:nth-child(2){
+        display: none;
+    }
+    .article-third-art{
+        width: 100%;
+        height: 100%;
+    }
+    .article-third-art + .article-third-art{
+        display: none;
+    }
+    #footer-top{
+        margin-right: 3rem;
+    }
+}
