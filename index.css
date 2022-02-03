@@ -31,6 +31,10 @@ a{
 
 /* Estilizado Header */
 
+#menu-phone{
+    display: none;
+}
+
 #container-header{
     height: 8vh;
     width: 100vw;
@@ -425,5 +429,90 @@ div#third-art-up > span{
     }
     #footer-bottom{
         width: 70%;
+    }
+}
+
+@media (max-width: 425px){
+    /* header */
+    #container-header{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    #logo-header{
+        height: 80%;
+        width: 20%;
+    }
+    #container-nav{
+        display: none;
+    }
+    #menu-phone{
+        margin-right: 1rem;
+        display: block;
+    }
+
+    /* main */
+    hero-main{
+        display: block;
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* primer artículo */
+    #container-first-art{
+        height: 100vh;
+        width: 100%;
+    }
+
+    #hero-heading{
+        font-size: 2rem;
+        margin: 0;
+    }
+    #first-art-right{
+        padding: 2rem;
+    }
+
+    #email-btn-form{
+        display: flex;
+    }
+    #sign-up-btn{
+        height: 3rem;
+        margin: auto;
+    }
+
+    /* segundo artículo */
+    #container-second-art{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #second-art-left > section + section{
+        display: none;
+    }
+    
+    #second-art-left{
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #placeholder-second{
+        width: 100vw;
+    }
+    
+    #box-article{
+        display: none;
+    }
+
+    .heading-second-art{
+        font-size: 2rem;
+    }
+
+    .paragraph-second-art{
+        font-size: 1.2rem;
+        padding: 2rem 0;
     }
 }
