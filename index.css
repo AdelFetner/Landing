@@ -517,3 +517,11 @@ div#third-art-up > span{
         padding: 2rem 0;
     }
 }
+
+@media (max-width: 375){
+    
+    #email-input{
+        font-size: .75rem;
+        padding: 0;
+    }
+}
